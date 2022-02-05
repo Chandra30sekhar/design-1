@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detection | Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+    <style>
+        *{
+    box-sizing: border-box;
+}
+
+/* Header */
+header{
+    width: 100%;
+    height: 100px;
+    /* background: url("/images/stockvault-forest-path115450.jpg"); */
+    background-color: #3E8E7E;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+
+}
+
+header h1{
+    position: relative;
+    top: 25px;
+    margin: 0px auto;
+    color: white;
+    color: #F0A500;
+}
+
+/* Navbar */
+
+nav{
+    background-color: #334756;
+    text-align: center;
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #71EFA3;
+}
+
+nav ul li a{
+    position: relative;
+    top: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Sans', sans-serif';
+}
+
+nav ul li a:hover{
+    color: #CEE5D0;
+    transition: 0.3s;
+    border-bottom: 4px solid chocolate;
+}
+
+
+section{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url('background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cont{
+    padding: 50px 120px 50px 50px;
+    position: relative;
+    height: 600px;
+    width: 50%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-bottom-right-radius: 400px;
+    border-top-right-radius: 400px;
+}
+
+footer{
+    border-top: 5px solid green;
+    width: 100%;
+    height: 100px;
+    background-color: #FEF1E6;
+    text-align: center;
+}
+
+footer p{
+    position: relative;
+    top: 40px;
+}
+
+.cont p{
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    background-color: greenyellow;
+    color: indigo;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: darkgreen;
+    border-bottom: 5px solid black;
+    color: white;
+    transition: 0.3s ease-out;
+}
+    </style>
+
+</head>
+<body>
+
+    <!-- Header of the homepage-->
+    <header>
+        <h1>Plant Disease Detection</h1>
+    </header>
+
+    <!--Navbar-->
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Detect</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="cont">
+            <h2>How do we identify the disease?</h2>
+            <p class="identification">
+                Random shit
+                While it may not be obvious to everyone, there are a number of reasons creating random paragraphs can be useful. A few examples of how some people use this generator are listed in the following paragraphs.
+                <br>
+                While it may not be obvious to everyone, there are a number of reasons creating random paragraphs can be useful. A few examples of how some people use this generator are listed in the following paragraphs.
+            </p>
+            <p>Click the button below to identify the disease</p>
+            <button type="button">Detect</button>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p>Created by the students of <a href="https://nmit.ac.in/">NMIT</a></p>
+    </footer>
+</body>
+</html>
